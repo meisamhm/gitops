@@ -8,7 +8,7 @@ spec:
     path: ''
     repoURL: 'https://helm.github.io/examples'
     targetRevision: 0.1.0
-    chart: hello-world
+    chart: hello-worldz
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
