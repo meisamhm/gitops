@@ -36,7 +36,7 @@ metadata:
   labels:
     app: my-nginx
 spec:
-  replicas: 1
+  replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
       app: my-nginx
